@@ -1,0 +1,2769 @@
+{
+  "chapters": [
+    {
+      "id": "1",
+      "name": "電學概論",
+      "sections": [
+        {
+          "id": "1-1",
+          "name": "電的特性及應用"
+        },
+        {
+          "id": "1-2",
+          "name": "電的單位"
+        },
+        {
+          "id": "1-3",
+          "name": "電能"
+        },
+        {
+          "id": "1-4",
+          "name": "電荷"
+        },
+        {
+          "id": "1-5",
+          "name": "電壓"
+        },
+        {
+          "id": "1-6",
+          "name": "電流"
+        },
+        {
+          "id": "1-7",
+          "name": "電功率"
+        }
+      ],
+      "textbookOffset": 0
+    },
+    {
+      "id": "2",
+      "name": "電阻",
+      "sections": [
+        {
+          "id": "2-1",
+          "name": "電阻及電導"
+        },
+        {
+          "id": "2-2",
+          "name": "各種電阻器"
+        },
+        {
+          "id": "2-3",
+          "name": "歐姆定律"
+        },
+        {
+          "id": "2-4",
+          "name": "電阻溫度係數"
+        },
+        {
+          "id": "2-5",
+          "name": "焦耳定律"
+        }
+      ],
+      "textbookOffset": -46
+    },
+    {
+      "id": "3",
+      "name": "串並聯電路",
+      "sections": [
+        {
+          "id": "3-1",
+          "name": "串聯電路型態及特性"
+        },
+        {
+          "id": "3-2",
+          "name": "克希荷夫電壓定律"
+        },
+        {
+          "id": "3-3",
+          "name": "並聯電路型態及特性"
+        },
+        {
+          "id": "3-4",
+          "name": "克希荷夫電流定律"
+        },
+        {
+          "id": "3-5",
+          "name": "電壓源及電流源"
+        },
+        {
+          "id": "3-6",
+          "name": "串並聯電路"
+        },
+        {
+          "id": "3-7",
+          "name": "惠斯登電橋"
+        },
+        {
+          "id": "3-8",
+          "name": "Y–Δ 互換"
+        }
+      ],
+      "textbookOffset": -80
+    },
+    {
+      "id": "4",
+      "name": "直流網路分析",
+      "sections": [
+        {
+          "id": "4-1",
+          "name": "節點電壓法"
+        },
+        {
+          "id": "4-2",
+          "name": "迴路電流法"
+        },
+        {
+          "id": "4-3",
+          "name": "重疊定理"
+        },
+        {
+          "id": "4-4",
+          "name": "戴維寧定理"
+        },
+        {
+          "id": "4-5",
+          "name": "諾頓定理"
+        },
+        {
+          "id": "4-6",
+          "name": "戴維寧及諾頓等效電路互換"
+        },
+        {
+          "id": "4-7",
+          "name": "最大功率轉移"
+        }
+      ],
+      "textbookOffset": -144
+    },
+    {
+      "id": "5",
+      "name": "電容及靜電",
+      "sections": [
+        {
+          "id": "5-1",
+          "name": "電容器"
+        },
+        {
+          "id": "5-2",
+          "name": "電容量"
+        },
+        {
+          "id": "5-3",
+          "name": "電場及電位"
+        }
+      ],
+      "textbookOffset": -196
+    },
+    {
+      "id": "6",
+      "name": "電感及電磁",
+      "sections": [
+        {
+          "id": "6-1",
+          "name": "磁的特性"
+        },
+        {
+          "id": "6-2",
+          "name": "電感器"
+        },
+        {
+          "id": "6-3",
+          "name": "電感量"
+        },
+        {
+          "id": "6-4",
+          "name": "電磁效應"
+        },
+        {
+          "id": "6-5",
+          "name": "電磁感應"
+        }
+      ],
+      "textbookOffset": -240
+    }
+  ],
+  "textbookTopics": {
+    "1-1": {
+      "title": "電的特性及應用",
+      "unit": "1-1",
+      "explanation": "電能可由不同能源轉換而來。比較發電方式時，可分別考慮燃料、發電過程與環境影響。",
+      "pages": [
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "1-2": {
+      "title": "電的單位",
+      "unit": "1-2",
+      "explanation": "SI 字首用十的次方表示倍率，m 代表 10⁻³，μ 代表 10⁻⁶，k 代表 10³，M 代表 10⁶。",
+      "pages": [
+        [
+          5,
+          9
+        ]
+      ]
+    },
+    "1-3": {
+      "title": "電能",
+      "unit": "1-3",
+      "explanation": "電能是能量的一種。發電機由機械能產生電能，馬達則利用電能做機械功。",
+      "pages": [
+        [
+          10,
+          12
+        ]
+      ]
+    },
+    "1-4": {
+      "title": "電荷",
+      "unit": "1-4",
+      "explanation": "電子帶負電，質子帶正電。物體因得失電子而改變淨電荷。",
+      "pages": [
+        [
+          13,
+          19
+        ]
+      ]
+    },
+    "1-5": {
+      "title": "電壓",
+      "unit": "1-5",
+      "explanation": "電位差是每單位電荷的能量變化。1 V = 1 J/C，V_AB 代表 V_A − V_B。",
+      "pages": [
+        [
+          20,
+          26
+        ]
+      ]
+    },
+    "1-6": {
+      "title": "電流",
+      "unit": "1-6",
+      "explanation": "電流表示單位時間通過截面的電荷量，I = ΔQ/Δt。金屬導線中的電子移動方向與傳統電流相反。",
+      "pages": [
+        [
+          27,
+          31
+        ]
+      ]
+    },
+    "1-7": {
+      "title": "電功率",
+      "unit": "1-7",
+      "explanation": "P = VI，電能 W = Pt。將 kW 乘上小時即可求得 kWh。1 kWh 即 1 度電。",
+      "pages": [
+        [
+          32,
+          39
+        ]
+      ]
+    },
+    "2-1": {
+      "title": "電阻及電導",
+      "unit": "2-1",
+      "explanation": "均勻導體的電阻為 R = ρℓ/A，電導 G = 1/R，以西門子 S 為單位。",
+      "pages": [
+        [
+          48,
+          56
+        ]
+      ]
+    },
+    "2-2": {
+      "title": "各種電阻器",
+      "unit": "2-2",
+      "explanation": "四色環電阻依序為兩位有效數字、倍率及誤差；可變電阻則用滑動端改變有效阻值。",
+      "pages": [
+        [
+          57,
+          61
+        ]
+      ]
+    },
+    "2-3": {
+      "title": "歐姆定律",
+      "unit": "2-3",
+      "explanation": "在物理狀態不變時，歐姆性元件滿足 V = IR。電功率也可寫成 I²R 或 V²/R。",
+      "pages": [
+        [
+          62,
+          66
+        ]
+      ]
+    },
+    "2-4": {
+      "title": "電阻溫度係數",
+      "unit": "2-4",
+      "explanation": "若溫度係數以 T₀ 為基準，近似關係是 R_T = R₀[1 + α₀(T − T₀)]。",
+      "pages": [
+        [
+          67,
+          70
+        ]
+      ]
+    },
+    "2-5": {
+      "title": "焦耳定律",
+      "unit": "2-5",
+      "explanation": "電流流經電阻，轉成熱的能量為 H = I²Rt，數值以焦耳表示。1 cal 約等於 4.184 J。",
+      "pages": [
+        [
+          71,
+          73
+        ]
+      ]
+    },
+    "3-1": {
+      "title": "串聯電路型態及特性",
+      "unit": "3-1",
+      "explanation": "串聯各電阻流過相同電流，等效電阻為各阻值的總和，電壓依電阻比例分配。",
+      "pages": [
+        [
+          82,
+          87
+        ]
+      ]
+    },
+    "3-2": {
+      "title": "克希荷夫電壓定律",
+      "unit": "3-2",
+      "explanation": "沿任一閉合迴路巡行，電壓升取正、電壓降取負，代數和為零。",
+      "pages": [
+        [
+          88,
+          93
+        ]
+      ]
+    },
+    "3-3": {
+      "title": "並聯電路型態及特性",
+      "unit": "3-3",
+      "explanation": "並聯各支路的兩端電壓相同；電導相加，電流則按電導比例分配。",
+      "pages": [
+        [
+          94,
+          101
+        ]
+      ]
+    },
+    "3-4": {
+      "title": "克希荷夫電流定律",
+      "unit": "3-4",
+      "explanation": "流入節點的電流總和等於流出的電流總和，源自電荷守恆。",
+      "pages": [
+        [
+          102,
+          108
+        ]
+      ]
+    },
+    "3-5": {
+      "title": "電壓源及電流源",
+      "unit": "3-5",
+      "explanation": "理想電壓源的內阻為零，理想電流源的內阻無限大。實用電源可用 V_s = I_sR 做等效轉換。",
+      "pages": [
+        [
+          109,
+          118
+        ]
+      ]
+    },
+    "3-6": {
+      "title": "串並聯電路",
+      "unit": "3-6",
+      "explanation": "先判斷元件是否共用同一對節點，或流過同一支路的電流，再依序化簡。",
+      "pages": [
+        [
+          119,
+          121
+        ]
+      ]
+    },
+    "3-7": {
+      "title": "惠斯登電橋",
+      "unit": "3-7",
+      "explanation": "電橋兩側的分壓比相同時，中間兩點同電位，檢流計電流為零。",
+      "pages": [
+        [
+          122,
+          125
+        ]
+      ]
+    },
+    "3-8": {
+      "title": "Y–Δ 互換",
+      "unit": "3-8",
+      "explanation": "Δ 轉 Y 時，同一端的兩個 Δ 臂電阻相乘，再除以三個 Δ 臂電阻的和。",
+      "pages": [
+        [
+          126,
+          131
+        ]
+      ]
+    },
+    "4-1": {
+      "title": "節點電壓法",
+      "unit": "4-1",
+      "explanation": "選一節點為零電位，針對其餘節點以電壓差除以支路阻值表示電流，再列電流守恆式。",
+      "pages": [
+        [
+          146,
+          151
+        ]
+      ]
+    },
+    "4-2": {
+      "title": "迴路電流法",
+      "unit": "4-2",
+      "explanation": "先設定各網目電流的方向，對每個網目列 KVL。共用電阻以兩網目電流的代數差計算壓降。",
+      "pages": [
+        [
+          152,
+          156
+        ]
+      ]
+    },
+    "4-3": {
+      "title": "重疊定理",
+      "unit": "4-3",
+      "explanation": "在線性電路中，個別獨立源的電壓或電流貢獻可代數相加。獨立電壓源歸零為短路，獨立電流源歸零為開路。",
+      "pages": [
+        [
+          157,
+          164
+        ]
+      ]
+    },
+    "4-4": {
+      "title": "戴維寧定理",
+      "unit": "4-4",
+      "explanation": "兩端線性電路可等效成開路電壓 V_th 串聯等效電阻 R_th。",
+      "pages": [
+        [
+          165,
+          173
+        ]
+      ]
+    },
+    "4-5": {
+      "title": "諾頓定理",
+      "unit": "4-5",
+      "explanation": "諾頓等效是短路電流 I_N 並聯等效電阻 R_N，R_N 與同端點的 R_th 相同。",
+      "pages": [
+        [
+          174,
+          177
+        ]
+      ]
+    },
+    "4-6": {
+      "title": "戴維寧及諾頓等效電路互換",
+      "unit": "4-6",
+      "explanation": "互換前後等效電阻相同，V_th = I_N R_N。戴維寧電阻串聯，諾頓電阻並聯。",
+      "pages": [
+        [
+          178,
+          179
+        ]
+      ]
+    },
+    "4-7": {
+      "title": "最大功率轉移",
+      "unit": "4-7",
+      "explanation": "直流電阻性負載 R_L = R_th 時，負載功率最大，P_max = V_th²/(4R_th)。",
+      "pages": [
+        [
+          180,
+          183
+        ]
+      ]
+    },
+    "5-1": {
+      "title": "電容器",
+      "unit": "5-1",
+      "explanation": "電容器由兩個導體極板與中間的電介質構成。充電時兩極板分別累積等量的異號電荷。",
+      "pages": [
+        [
+          198,
+          202
+        ]
+      ]
+    },
+    "5-2": {
+      "title": "電容量",
+      "unit": "5-2",
+      "explanation": "Q = CV，儲能為 ½CV²。電容並聯直接相加，串聯則使用倒數相加。",
+      "pages": [
+        [
+          203,
+          215
+        ]
+      ]
+    },
+    "5-3": {
+      "title": "電場及電位",
+      "unit": "5-3",
+      "explanation": "電場定義為單位正試驗電荷受力，E = F/q。均勻電場內，電位沿電場方向降低。",
+      "pages": [
+        [
+          216,
+          233
+        ]
+      ]
+    },
+    "6-1": {
+      "title": "磁的特性",
+      "unit": "6-1",
+      "explanation": "磁通量的單位是韋伯（Wb），磁通密度的單位為特斯拉（T）。均勻磁場垂直穿過面積時，Φ = BA。",
+      "pages": [
+        [
+          242,
+          257
+        ]
+      ]
+    },
+    "6-2": {
+      "title": "電感器",
+      "unit": "6-2",
+      "explanation": "電感器利用線圈中的磁場儲存能量。理想電感器的電壓與電流變化率成正比。",
+      "pages": [
+        [
+          258,
+          259
+        ]
+      ]
+    },
+    "6-3": {
+      "title": "電感量",
+      "unit": "6-3",
+      "explanation": "磁通鏈結 λ = LI，電感儲能為 ½LI²。未磁耦合的電感可依電阻類似的串並聯規則求等效。",
+      "pages": [
+        [
+          260,
+          273
+        ]
+      ]
+    },
+    "6-4": {
+      "title": "電磁效應",
+      "unit": "6-4",
+      "explanation": "通電導體周圍會產生磁場。安培右手定則可判斷磁場方向，磁場中的通電導體會受磁力。",
+      "pages": [
+        [
+          274,
+          280
+        ]
+      ]
+    },
+    "6-5": {
+      "title": "電磁感應",
+      "unit": "6-5",
+      "explanation": "法拉第定律給出感應電壓與磁通鏈結的變化率。冷次定律用於判斷感應方向。",
+      "pages": [
+        [
+          281,
+          293
+        ]
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "ee-1101",
+      "unit": "1-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "下列哪一種屬於再生能源發電？",
+      "textbook": {
+        "topic": "1-1",
+        "exercisePage": 42
+      },
+      "explanation": "太陽光能可持續補充，太陽能電池將光能直接轉成電能。核能依賴核燃料，一般火力發電及傳統汽電共生多消耗化石燃料。",
+      "label": "自我評量第 1 題",
+      "options": [
+        "核能發電",
+        "火力發電",
+        "汽電共生",
+        "太陽能發電"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-1102",
+      "unit": "1-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "下列發電方式，何者最直接造成燃燒所致的空氣汙染？",
+      "textbook": {
+        "topic": "1-1",
+        "exercisePage": 42
+      },
+      "explanation": "以燃煤、燃油等方式進行火力發電會排放粒狀物、氮氧化物與其他燃燒產物。",
+      "label": "自我評量第 2 題",
+      "options": [
+        "水力發電",
+        "核能發電",
+        "火力發電",
+        "太陽能發電"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-1103",
+      "unit": "1-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "下列何種發電方式會留下具放射性的廢料？",
+      "textbook": {
+        "topic": "1-1",
+        "exercisePage": 42
+      },
+      "explanation": "核分裂會產生具放射性的產物，使用過的核燃料及相關廢棄物須依其放射性妥善管理。",
+      "label": "自我評量第 3 題",
+      "options": [
+        "核能發電",
+        "火力發電",
+        "風力發電",
+        "太陽能發電"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-1104",
+      "unit": "1-1",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "比較太陽能發電與燃煤發電的能量來源，並說明太陽能發電功率為何會隨時間變動。",
+      "textbook": {
+        "topic": "1-1"
+      },
+      "explanation": "太陽能電池直接把光能轉為電能；日夜交替、雲量及入射角改變，都會改變太陽能電池接收到的光功率。燃煤則先把化學能轉為熱，再由蒸汽帶動發電機。",
+      "label": "練習 4",
+      "answer": "太陽能取自日照，燃煤取自煤的化學能。"
+    },
+    {
+      "id": "ee-1201",
+      "unit": "1-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "電流為 10⁻⁶ A，可以簡寫成什麼？",
+      "textbook": {
+        "topic": "1-2",
+        "exercisePage": 42
+      },
+      "explanation": "μ 代表 10⁻⁶，因此 1 μA = 10⁻⁶ A。",
+      "label": "自我評量第 4 題",
+      "options": [
+        "10 μA",
+        "1 μA",
+        "0.1 μA",
+        "0.01 μA"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-1202",
+      "unit": "1-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "下列哪一組物理量與 SI 基本單位的配對有誤？",
+      "textbook": {
+        "topic": "1-2",
+        "exercisePage": 42
+      },
+      "explanation": "SI 長度基本單位是公尺（m）。公分（cm）等於 10⁻² m，屬於加上字首後的單位。",
+      "label": "自我評量第 6 題",
+      "options": [
+        "電流—安培",
+        "時間—秒",
+        "質量—公斤",
+        "長度—公分"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-1203",
+      "unit": "1-2",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "將 0.0035 A 換算為 mA，填入數值。",
+      "textbook": {
+        "topic": "1-2"
+      },
+      "explanation": "1 mA = 0.001 A，所以 0.0035 A ÷ 0.001 A/mA = 3.5 mA。",
+      "label": "練習 3",
+      "answer": [
+        "3.5"
+      ]
+    },
+    {
+      "id": "ee-1301",
+      "unit": "1-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "發電機的主要能量轉換為何？",
+      "textbook": {
+        "topic": "1-3",
+        "exercisePage": 42
+      },
+      "explanation": "外力帶動發電機，使線圈所鏈結的磁通改變，產生感應電動勢。發電機因此將輸入的機械能轉成電能。",
+      "label": "自我評量第 7 題",
+      "options": [
+        "機械能→電能",
+        "電能→機械能",
+        "電能→磁能",
+        "電能→化學能"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-1302",
+      "unit": "1-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "電動機的主要能量轉換為何？",
+      "textbook": {
+        "topic": "1-3",
+        "exercisePage": 42
+      },
+      "explanation": "通電線圈在磁場中受力，形成力矩並使轉子旋轉，電能因此轉成旋轉的機械能。",
+      "label": "自我評量第 8 題",
+      "options": [
+        "機械能→電能",
+        "電能→機械能",
+        "化學能→電能",
+        "電能→化學能"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-1303",
+      "unit": "1-3",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "某設備用去 0.25 kWh 的電能，相當於多少 kJ？",
+      "textbook": {
+        "topic": "1-3"
+      },
+      "explanation": "1 kWh = 1000 J/s × 3600 s = 3600 kJ，所以 0.25 × 3600 = 900 kJ。",
+      "label": "練習 3",
+      "answer": [
+        "900"
+      ]
+    },
+    {
+      "id": "ee-1401",
+      "unit": "1-4",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "電中性的原子獲得一個電子後，稱為什麼？",
+      "textbook": {
+        "topic": "1-4",
+        "exercisePage": 43
+      },
+      "explanation": "原先兩種電荷互相抵銷，多了一個電子後，淨電荷為 −e，因此形成負離子。",
+      "label": "自我評量第 9 題",
+      "options": [
+        "負離子",
+        "正離子",
+        "分子",
+        "正原子"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-1402",
+      "unit": "1-4",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "原子最外層的電子通常稱為什麼？",
+      "textbook": {
+        "topic": "1-4",
+        "exercisePage": 43
+      },
+      "explanation": "原子最外層的電子稱為價電子，和化學鍵及導電性有關。自由電子是能在材料內移動的電子。",
+      "label": "自我評量第 10 題",
+      "options": [
+        "原子核",
+        "中子",
+        "價電子",
+        "自由電子"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-1403",
+      "unit": "1-4",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "物體失去 4.0 × 10¹² 個電子。取基本電荷量 e = 1.6 × 10⁻¹⁹ C，淨電荷是幾 μC？須填正負號或正值。",
+      "textbook": {
+        "topic": "1-4"
+      },
+      "explanation": "失去負電荷使淨電荷為正。Q = 4.0 × 10¹² × 1.6 × 10⁻¹⁹ C = +6.4 × 10⁻⁷ C = +0.64 μC。",
+      "label": "練習 3",
+      "answer": [
+        "0.64"
+      ]
+    },
+    {
+      "id": "ee-1501",
+      "unit": "1-5",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "A、B、C 三點的電位分別為 40 V、−50 V、30 V。A 相對於 C 的電壓 V_AC 為多少？",
+      "textbook": {
+        "topic": "1-5",
+        "exercisePage": 43
+      },
+      "explanation": "V_AC = V_A − V_C = 40 − 30 = 10 V。B 點不在所求的電位差中。",
+      "label": "自我評量第 14 題",
+      "options": [
+        "90 V",
+        "10 V",
+        "−10 V",
+        "−50 V"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-1502",
+      "unit": "1-5",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "一個電量為 5 C 的電荷通過元件，轉移 50 J 的能量。元件兩端電位差的大小為多少？",
+      "textbook": {
+        "topic": "1-5",
+        "exercisePage": 43
+      },
+      "explanation": "電位差大小為能量除以電量，|V| = 50 J ÷ 5 C = 10 V。",
+      "label": "自我評量第 16 題",
+      "options": [
+        "50 V",
+        "10 V",
+        "5 V",
+        "2 V"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-1503",
+      "unit": "1-5",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "正電荷 2 C 從 A 點移至 B 點時，電位能增加 12 J。求 V_B − V_A，單位 V。",
+      "textbook": {
+        "topic": "1-5"
+      },
+      "explanation": "ΔU = Q(V_B − V_A)，所以 V_B − V_A = 12/2 = 6 V。",
+      "label": "練習 3",
+      "answer": [
+        "6"
+      ]
+    },
+    {
+      "id": "ee-1601",
+      "unit": "1-6",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "金屬導線中的電流方向與自由電子的漂移方向有何關係？",
+      "textbook": {
+        "topic": "1-6",
+        "exercisePage": 43
+      },
+      "explanation": "傳統電流方向按正電荷的移動方向定義。電子帶負電，其漂移方向與傳統電流相反。",
+      "label": "自我評量第 17 題",
+      "options": [
+        "相同",
+        "相反",
+        "由材質決定",
+        "由長度決定"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-1602",
+      "unit": "1-6",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "1 A 的電流每秒約對應多少電子通過截面？取 e = 1.6 × 10⁻¹⁹ C。",
+      "textbook": {
+        "topic": "1-6",
+        "exercisePage": 43
+      },
+      "explanation": "1 A = 1 C/s。每秒通過的電子數為 1 C ÷ (1.6 × 10⁻¹⁹ C) = 6.25 × 10¹⁸。",
+      "label": "自我評量第 18 題",
+      "options": [
+        "6.25 × 10¹⁸",
+        "100",
+        "1",
+        "1.6 × 10⁻¹⁹"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-1604",
+      "unit": "1-6",
+      "type": "f",
+      "source": "exercise",
+      "prompt": "導線每秒有 6.25 × 10¹⁸ 個電子通過，取 e = 1.6 × 10⁻¹⁹ C。求電流大小（A）。",
+      "textbook": {
+        "topic": "1-6",
+        "exercisePage": 45
+      },
+      "explanation": "每秒通過的總電荷量大小為 (6.25 × 10¹⁸) × (1.6 × 10⁻¹⁹) = 1 C，所以電流大小為 1 A。",
+      "label": "自我評量第 2 題",
+      "answer": [
+        "1"
+      ]
+    },
+    {
+      "id": "ee-1603",
+      "unit": "1-6",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "在 4 s 內有 18 C 的電荷通過導體截面。平均電流是幾 A？",
+      "textbook": {
+        "topic": "1-6"
+      },
+      "explanation": "I = ΔQ/Δt = 18/4 = 4.5 A。",
+      "label": "練習 3",
+      "answer": [
+        "4.5"
+      ]
+    },
+    {
+      "id": "ee-1701",
+      "unit": "1-7",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "家中有 5 盞 60 W 的電燈，每天同時點亮 10 小時，共 15 天，總共消耗幾度電？",
+      "textbook": {
+        "topic": "1-7",
+        "exercisePage": 44
+      },
+      "explanation": "總功率為 5 × 60 W = 0.30 kW。使用時間 150 h，消耗電能 0.30 × 150 = 45 kWh。",
+      "label": "自我評量第 20 題",
+      "options": [
+        "60",
+        "45",
+        "15",
+        "10"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-1702",
+      "unit": "1-7",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "系統效率為 80%，輸出功率為 80 kW，輸入功率是多少？",
+      "textbook": {
+        "topic": "1-7",
+        "exercisePage": 44
+      },
+      "explanation": "效率等於輸出功率除以輸入功率。P_in = 80 ÷ 0.8 = 100 kW。",
+      "label": "自我評量第 21 題",
+      "options": [
+        "200 kW",
+        "100 kW",
+        "80 kW",
+        "20 kW"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-1705",
+      "unit": "1-7",
+      "type": "w",
+      "source": "exercise",
+      "prompt": "馬達的能量轉換效率為 80%，損失功率為 500 W。求馬達的輸出功率。",
+      "textbook": {
+        "topic": "1-7",
+        "exercisePage": 45
+      },
+      "explanation": "損失為輸入的 1 − 0.80 = 20%，所以 P_in = 500/0.20 = 2500 W，P_out = 2500 − 500 = 2000 W。",
+      "label": "自我評量第 4 題",
+      "answer": "2000 W。"
+    },
+    {
+      "id": "ee-1703",
+      "unit": "1-7",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "一個 24 V 的直流負載吸收 1.5 A。求功率（W）與運作 2 小時消耗的電能（Wh），依序填入。",
+      "textbook": {
+        "topic": "1-7"
+      },
+      "explanation": "P = VI = 24 × 1.5 = 36 W。W = Pt = 36 × 2 = 72 Wh。",
+      "label": "練習 3",
+      "answer": [
+        "36",
+        "72"
+      ]
+    },
+    {
+      "id": "ee-1704",
+      "unit": "1-7",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "一台馬達的輸入功率為 750 W，效率為 80%。求機械輸出功率及 10 分鐘內損失的能量。",
+      "textbook": {
+        "topic": "1-7"
+      },
+      "explanation": "輸出功率為 0.80 × 750 = 600 W，損失功率為 750 − 600 = 150 W。10 分鐘為 600 s，損失能量為 150 × 600 = 90000 J = 90 kJ。",
+      "label": "練習 4",
+      "answer": "600 W；90 kJ。"
+    },
+    {
+      "id": "ee-2101",
+      "unit": "2-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "電阻的單位為何？",
+      "textbook": {
+        "topic": "2-1",
+        "exercisePage": 76
+      },
+      "explanation": "歐姆定律給出 R = V/I，電阻的單位 Ω 等於 V/A。",
+      "label": "自我評量第 1 題",
+      "options": [
+        "Ω",
+        "V",
+        "A",
+        "W"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-2102",
+      "unit": "2-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "電導的單位為何？",
+      "textbook": {
+        "topic": "2-1",
+        "exercisePage": 76
+      },
+      "explanation": "電導 G = 1/R，單位 Ω⁻¹，稱為西門子（S）。",
+      "label": "自我評量第 2 題",
+      "options": [
+        "Ω",
+        "V",
+        "S",
+        "J"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-2103",
+      "unit": "2-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "電纜每公尺的等效電阻為 0.5 mΩ。若長度為 200 m，其等效電導約為多少？",
+      "textbook": {
+        "topic": "2-1",
+        "exercisePage": 76
+      },
+      "explanation": "R = 200 × 0.5 mΩ = 100 mΩ = 0.1 Ω，G = 1/0.1 = 10 S。",
+      "label": "自我評量第 7 題",
+      "options": [
+        "400 S",
+        "12 S",
+        "10 S",
+        "0.5 S"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-2104",
+      "unit": "2-1",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "一段均勻導線電阻為 6 Ω。同材質、同溫度下，若長度加倍，截面積為原來的一半，電阻是多少 Ω？",
+      "textbook": {
+        "topic": "2-1"
+      },
+      "explanation": "R ∝ ℓ/A。長度乘 2、面積除以 2，所以電阻為原來的 4 倍，即 24 Ω。",
+      "label": "練習 4",
+      "answer": [
+        "24"
+      ]
+    },
+    {
+      "id": "ee-2201",
+      "unit": "2-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "有一四色環電阻，色碼依序為藍、紅、棕、銀。其與標稱電阻的最大偏差為多少？",
+      "textbook": {
+        "topic": "2-2",
+        "exercisePage": 76
+      },
+      "explanation": "藍、紅為 6、2，棕是 ×10，標稱電阻為 620 Ω。銀為 ±10%，最大偏差為 620 × 0.10 = 62 Ω。",
+      "label": "自我評量第 8 題",
+      "options": [
+        "62 kΩ",
+        "6.2 kΩ",
+        "0.62 kΩ",
+        "62 Ω"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-2202",
+      "unit": "2-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "紅、橙、藍、銀的四色環電阻，其標稱值與誤差為何？",
+      "textbook": {
+        "topic": "2-2",
+        "exercisePage": 77
+      },
+      "explanation": "紅、橙為 2、3，藍為 ×10⁶，銀為 ±10%，得到 23 MΩ ±10%。",
+      "label": "自我評量第 9 題",
+      "options": [
+        "32 MΩ ±5%",
+        "23 MΩ ±10%",
+        "32 Ω ±5%",
+        "23 Ω ±10%"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-2203",
+      "unit": "2-2",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "黃、紫、紅、金的四色環電阻，其標稱電阻為多少 kΩ？",
+      "textbook": {
+        "topic": "2-2"
+      },
+      "explanation": "黃、紫為 4、7，紅是 ×10²，金為 ±5%。標稱值為 47 × 100 Ω = 4.7 kΩ。",
+      "label": "練習 3",
+      "answer": [
+        "4.7"
+      ]
+    },
+    {
+      "id": "ee-2301",
+      "unit": "2-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "20 Ω 電阻的兩端加上 50 V，其電流為多少？",
+      "textbook": {
+        "topic": "2-3",
+        "exercisePage": 77
+      },
+      "explanation": "由 I = V/R 得 I = 50/20 = 2.5 A。",
+      "label": "自我評量第 11 題",
+      "options": [
+        "50 A",
+        "20 A",
+        "2.5 A",
+        "2 A"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-2302",
+      "unit": "2-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "某電阻兩端加上 1.5 V 時通過 50 mA，電阻值是多少？",
+      "textbook": {
+        "topic": "2-3",
+        "exercisePage": 77
+      },
+      "explanation": "先將 50 mA 換成 0.05 A，再代入 R = V/I = 1.5/0.05 = 30 Ω。",
+      "label": "自我評量第 13 題",
+      "options": [
+        "50 Ω",
+        "30 Ω",
+        "3 Ω",
+        "1.5 Ω"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-2303",
+      "unit": "2-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "額定 110 V、100 W 的燈泡在額定工作時，電阻約是多少？",
+      "textbook": {
+        "topic": "2-3",
+        "exercisePage": 77
+      },
+      "explanation": "在額定工作點，P = V²/R，所以 R = 110²/100 = 121 Ω。此值是工作時的電阻，冷態阻值可不同。",
+      "label": "自我評量第 15 題",
+      "options": [
+        "1210 Ω",
+        "121 Ω",
+        "110 Ω",
+        "100 Ω"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-2305",
+      "unit": "2-3",
+      "type": "f",
+      "source": "exercise",
+      "prompt": "一個 100 Ω 電阻通過 120 mA 電流。求其兩端電位差（V）。",
+      "textbook": {
+        "topic": "2-3",
+        "exercisePage": 77
+      },
+      "explanation": "將 120 mA 換為 0.12 A。由 V = IR 得 V = 0.12 × 100 = 12 V。",
+      "label": "自我評量第 12 題",
+      "answer": [
+        "12"
+      ]
+    },
+    {
+      "id": "ee-2304",
+      "unit": "2-3",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "在 4.7 kΩ 的電阻上加 9.4 V，流過的電流為幾 mA？",
+      "textbook": {
+        "topic": "2-3"
+      },
+      "explanation": "9.4 V ÷ 4700 Ω = 0.002 A = 2 mA。也可直接利用 V/kΩ 得到 mA。",
+      "label": "練習 4",
+      "answer": [
+        "2"
+      ]
+    },
+    {
+      "id": "ee-2401",
+      "unit": "2-4",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "若希望電阻值在工作溫度改變時仍保持穩定，宜選何種材料？",
+      "textbook": {
+        "topic": "2-4",
+        "exercisePage": 78
+      },
+      "explanation": "同一基準下，電阻的相對變化為 αΔT。溫度係數的絕對值越小，溫度造成的阻值變化越小。",
+      "label": "自我評量第 18 題",
+      "options": [
+        "電阻係數小",
+        "電導係數小",
+        "電阻溫度係數絕對值小",
+        "電阻溫度係數大"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-2402",
+      "unit": "2-4",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "某金屬電阻在 20 ℃ 為 50 Ω，20 ℃ 的溫度係數為 0.004/℃。求 70 ℃ 的電阻（Ω）。",
+      "textbook": {
+        "topic": "2-4"
+      },
+      "explanation": "溫差為 50 ℃。R₇₀ = 50[1 + 0.004 × 50] = 60 Ω。",
+      "label": "練習 2",
+      "answer": [
+        "60"
+      ]
+    },
+    {
+      "id": "ee-2403",
+      "unit": "2-4",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "某溫度感測電阻在 25 ℃ 為 100 Ω，在 75 ℃ 為 80 Ω。求以 25 ℃ 為基準的溫度係數，並判斷是 PTC 或 NTC。",
+      "textbook": {
+        "topic": "2-4"
+      },
+      "explanation": "α₂₅ = (80 − 100)/(100 × 50) = −0.004/℃。溫度升高時阻值降低，故屬負溫度係數（NTC）。",
+      "label": "練習 3",
+      "answer": "−0.004/℃，NTC。"
+    },
+    {
+      "id": "ee-2501",
+      "unit": "2-5",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "1 卡（cal）的熱量約等於多少焦耳？",
+      "textbook": {
+        "topic": "2-5",
+        "exercisePage": 78
+      },
+      "explanation": "卡與焦耳都是能量單位，1 cal ≈ 4.184 J。0.24 是由焦耳換算為卡時的近似倍率。",
+      "label": "自我評量第 21 題",
+      "options": [
+        "9.8 J",
+        "4.18 J",
+        "1 J",
+        "0.24 J"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-2502",
+      "unit": "2-5",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "1 Ω 的電阻通過 2 A 持續 1 小時。若採 1 J ≈ 0.24 cal，約產生多少熱量？",
+      "textbook": {
+        "topic": "2-5",
+        "exercisePage": 78
+      },
+      "explanation": "1 小時為 3600 s。熱量 = I²Rt = 2² × 1 × 3600 = 14400 J。換算得 14400 × 0.24 = 3456 cal。",
+      "label": "自我評量第 22 題",
+      "options": [
+        "3456 cal",
+        "567 cal",
+        "456 cal",
+        "345 cal"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-2503",
+      "unit": "2-5",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "一個 6 Ω 電阻通過 3 A，持續 20 s。電阻共產生多少 J 的熱？",
+      "textbook": {
+        "topic": "2-5"
+      },
+      "explanation": "P = I²R = 3² × 6 = 54 W。H = Pt = 54 × 20 = 1080 J。",
+      "label": "練習 3",
+      "answer": [
+        "1080"
+      ]
+    },
+    {
+      "id": "ee-3101",
+      "unit": "3-1",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "2 Ω、3 Ω 和 7 Ω 串聯時，等效電阻是多少？",
+      "textbook": {
+        "topic": "3-1"
+      },
+      "explanation": "串聯電流相同、電壓降相加，故 R_eq = 2 + 3 + 7 = 12 Ω。",
+      "label": "練習 1",
+      "options": [
+        "2 Ω",
+        "5 Ω",
+        "10 Ω",
+        "12 Ω"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-3102",
+      "unit": "3-1",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "3 kΩ 與 6 kΩ 串聯接在 18 V 電源上，6 kΩ 兩端電壓為幾 V？",
+      "textbook": {
+        "topic": "3-1"
+      },
+      "explanation": "總阻值為 9 kΩ。利用分壓得 V₆ = 18 × 6/9 = 12 V。",
+      "label": "練習 2",
+      "answer": [
+        "12"
+      ]
+    },
+    {
+      "id": "ee-3103",
+      "unit": "3-1",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "兩個電阻 4 Ω 與 8 Ω 串聯接到 24 V，求各電阻電流及功率。",
+      "textbook": {
+        "topic": "3-1"
+      },
+      "explanation": "總阻值為 12 Ω。串聯各處電流同為 24/12 = 2 A。以 P = I²R 分別得 4 × 4 = 16 W 及 4 × 8 = 32 W，合計與電源的 24 × 2 = 48 W 相同。",
+      "label": "練習 3",
+      "answer": "兩者均為 2 A；功率分別為 16 W 與 32 W。"
+    },
+    {
+      "id": "ee-3201",
+      "unit": "3-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "任何閉合迴路的電壓升總和等於電壓降總和，稱為什麼？",
+      "textbook": {
+        "topic": "3-2",
+        "exercisePage": 136
+      },
+      "explanation": "繞迴路一周返回同一節點時，電位的總變化為零，故電壓升與電壓降相等。",
+      "label": "自我評量第 10 題",
+      "options": [
+        "焦耳定律",
+        "克希荷夫電壓定律",
+        "克希荷夫電流定律",
+        "歐姆定律"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-3202",
+      "unit": "3-2",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "沿順時針方向有一個 18 V 電壓升，接著跨過電阻造成 7 V 壓降與 5 V 壓降。若還有一個電阻，求其壓降（V）。",
+      "textbook": {
+        "topic": "3-2"
+      },
+      "explanation": "令第三個壓降為 V，克希荷夫電壓定律給出 18 − 7 − 5 − V = 0，所以 V = 6 V。",
+      "label": "練習 2",
+      "answer": [
+        "6"
+      ]
+    },
+    {
+      "id": "ee-3203",
+      "unit": "3-2",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "一個迴路串聯 16 V 電源、與它反向的 4 V 電源、2 Ω 及 4 Ω 電阻。求電流的大小和方向。",
+      "textbook": {
+        "topic": "3-2"
+      },
+      "explanation": "先假設巡行方向使 16 V 電源為電壓升，反向電源便為電壓降。16 − 4 − 2I − 4I = 0，得到 I = 2 A。結果為正，與假設方向相同。",
+      "label": "練習 3",
+      "answer": "2 A，沿 16 V 電源提供電壓升的方向。"
+    },
+    {
+      "id": "ee-3304",
+      "unit": "3-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "如圖所示，三個電阻支路的等效電阻為何？{{img:3-135-5.png}}",
+      "textbook": {
+        "topic": "3-3",
+        "exercisePage": 135
+      },
+      "explanation": "三支路並聯，電導相加等於 1/36 + 1/12 + 1/18 = (1+3+2)/36 = 1/6 S，故等效電阻為 6 Ω。",
+      "label": "自我評量第 6 題",
+      "options": [
+        "36 Ω",
+        "18 Ω",
+        "12 Ω",
+        "6 Ω"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-3305",
+      "unit": "3-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "一大一小的兩個正電阻並聯，共同的等效電阻有什麼特性？",
+      "textbook": {
+        "topic": "3-3",
+        "exercisePage": 135
+      },
+      "explanation": "R_eq 的倒數等於兩個正電導的和，大於任一支路電阻的倒數，因此 R_eq 小於兩支路中較小的電阻。",
+      "label": "自我評量第 8 題",
+      "options": [
+        "小於小電阻",
+        "等於小電阻",
+        "大於大電阻",
+        "介於兩者之間"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-3301",
+      "unit": "3-3",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "6 Ω 與 3 Ω 並聯，其等效電阻為何？",
+      "textbook": {
+        "topic": "3-3"
+      },
+      "explanation": "並聯電導相加，1/R_eq = 1/6 + 1/3 = 1/2，因此 R_eq = 2 Ω，小於任一支路電阻。",
+      "label": "練習 1",
+      "options": [
+        "2 Ω",
+        "3 Ω",
+        "4.5 Ω",
+        "9 Ω"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-3302",
+      "unit": "3-3",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "4 Ω 與 12 Ω 並聯，總電流 8 A。通過 12 Ω 支路的電流為幾 A？",
+      "textbook": {
+        "topic": "3-3"
+      },
+      "explanation": "R_eq = 4 × 12/(4 + 12) = 3 Ω。端電壓 V = 8 × 3 = 24 V，12 Ω 支路電流為 24/12 = 2 A。",
+      "label": "練習 2",
+      "answer": [
+        "2"
+      ]
+    },
+    {
+      "id": "ee-3303",
+      "unit": "3-3",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "12 V 電源接兩個並聯支路，阻值分別為 6 Ω 與 4 Ω。求總電流及兩支路各自的功率。",
+      "textbook": {
+        "topic": "3-3"
+      },
+      "explanation": "兩支路同為 12 V，因此各通過 12/6 = 2 A 與 12/4 = 3 A。總電流為 5 A，功率分別為 12 × 2 = 24 W 與 12 × 3 = 36 W。",
+      "label": "練習 3",
+      "answer": "5 A；24 W、36 W。"
+    },
+    {
+      "id": "ee-3404",
+      "unit": "3-4",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "如圖所示，求箭頭所標的電流 I。{{img:3-138-15.png}}",
+      "textbook": {
+        "topic": "3-4",
+        "exercisePage": 138
+      },
+      "explanation": "左側三支路匯入 2 + 4 + 6 = 12 A，通過 3 Ω 後分流到右側三支路。由 KCL 得 12 = 7 + 2 + I，故 I = 3 A。",
+      "label": "自我評量第 20 題",
+      "options": [
+        "4 A",
+        "3 A",
+        "2 A",
+        "1 A"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-3401",
+      "unit": "3-4",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "一節點有 3 A、5 A 流入，2 A 與 I 流出。I 為多少？",
+      "textbook": {
+        "topic": "3-4"
+      },
+      "explanation": "令流入和流出相等：3 + 5 = 2 + I，得 I = 6 A。",
+      "label": "練習 1",
+      "options": [
+        "2 A",
+        "4 A",
+        "6 A",
+        "10 A"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-3402",
+      "unit": "3-4",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "把流出某節點的電流記為正。三條支路電流依序為 4 A、−9 A 與 I，求 I（A）。",
+      "textbook": {
+        "topic": "3-4"
+      },
+      "explanation": "各支路電流取代數和，4 + (−9) + I = 0，得到 I = 5 A，方向為流出。",
+      "label": "練習 2",
+      "answer": [
+        "5"
+      ]
+    },
+    {
+      "id": "ee-3403",
+      "unit": "3-4",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "從 10 V 電源的正端經 2 Ω 到某節點，該節點再經 3 Ω 接地。利用節點的電流關係求節點電壓。",
+      "textbook": {
+        "topic": "3-4"
+      },
+      "explanation": "令節點電壓 V。流入為 (10 − V)/2，流出為 V/3。兩者相等，3(10 − V) = 2V，所以 V = 6 V。",
+      "label": "練習 3",
+      "answer": "6 V。"
+    },
+    {
+      "id": "ee-3501",
+      "unit": "3-5",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "理想電壓源的內阻為何？",
+      "textbook": {
+        "topic": "3-5",
+        "exercisePage": 138
+      },
+      "explanation": "理想電壓源的端電壓維持固定。串聯內阻為零時，電流改變不會額外造成內部的電壓降。",
+      "label": "自我評量第 21 題",
+      "options": [
+        "0 Ω",
+        "無限大",
+        "無法決定",
+        "由負載決定"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-3502",
+      "unit": "3-5",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "理想電流源的內阻為何？",
+      "textbook": {
+        "topic": "3-5",
+        "exercisePage": 138
+      },
+      "explanation": "實用電流源可用理想電流源並聯內阻表示。理想情況的內阻為無限大，內部支路不分走輸出電流。",
+      "label": "自我評量第 22 題",
+      "options": [
+        "0 Ω",
+        "無限大",
+        "無法決定",
+        "由負載決定"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-3504",
+      "unit": "3-5",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "將左圖等效成右圖，電流 I 與電阻 r 為何？{{img:3-138-16.png}}",
+      "textbook": {
+        "topic": "3-5",
+        "exercisePage": 138
+      },
+      "explanation": "端點 a 為開路正端，短路電流大小為 40/10 = 4 A。電流源方向由 b 指向 a；原串聯的 10 Ω 改成並聯。",
+      "label": "自我評量第 23 題",
+      "options": [
+        "40 A、10 Ω",
+        "10 A、40 Ω",
+        "4 A、40 Ω",
+        "4 A、10 Ω"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-3503",
+      "unit": "3-5",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "15 V 電壓源串聯 5 Ω，轉換成等效電流源。求電流（A）與並聯電阻（Ω），依序填入。",
+      "textbook": {
+        "topic": "3-5"
+      },
+      "explanation": "轉換後的電流是短路電流 15/5 = 3 A。由端點看入的等效電阻維持 5 Ω，改放在電流源旁並聯。",
+      "label": "練習 3",
+      "answer": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "id": "ee-3601",
+      "unit": "3-6",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "6 Ω 與 3 Ω 並聯，再串聯 5 Ω。總電阻是多少？",
+      "textbook": {
+        "topic": "3-6"
+      },
+      "explanation": "並聯部分為 6 × 3/(6 + 3) = 2 Ω。將等效的 2 Ω 與 5 Ω 串聯，總阻值為 7 Ω。",
+      "label": "練習 1",
+      "options": [
+        "2 Ω",
+        "5 Ω",
+        "7 Ω",
+        "14 Ω"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-3602",
+      "unit": "3-6",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "12 V 電源串聯 2 Ω，再接由 6 Ω 和 3 Ω 組成的並聯負載。求 3 Ω 支路的電流（A）。",
+      "textbook": {
+        "topic": "3-6"
+      },
+      "explanation": "並聯負載等效為 2 Ω，總電阻為 4 Ω，總電流 3 A。負載電壓為 3 × 2 = 6 V，3 Ω 電阻流過 6/3 = 2 A。",
+      "label": "練習 2",
+      "answer": [
+        "2"
+      ]
+    },
+    {
+      "id": "ee-3603",
+      "unit": "3-6",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "兩支路並聯，第一支路為 3 Ω 與 9 Ω 串聯，第二支路為 4 Ω。若兩端加 24 V，求總電流和第一支路 9 Ω 的壓降。",
+      "textbook": {
+        "topic": "3-6"
+      },
+      "explanation": "第一支路等效為 12 Ω，電流是 2 A；第二支路電流為 6 A，總電流為 8 A。9 Ω 電阻與 3 Ω 流過相同的 2 A，故其壓降是 18 V。",
+      "label": "練習 3",
+      "answer": "8 A；18 V。"
+    },
+    {
+      "id": "ee-3701",
+      "unit": "3-7",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "平衡的惠斯登電橋，其中央檢流計上會有多大的電流？",
+      "textbook": {
+        "topic": "3-7"
+      },
+      "explanation": "平衡時兩分壓節點同電位，檢流計兩端電壓為 0，因此檢流計沒有電流。",
+      "label": "練習 1",
+      "options": [
+        "0 A",
+        "總電流的一半",
+        "等於電源電流",
+        "由檢流計阻值決定"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-3702",
+      "unit": "3-7",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "電橋兩分壓支路的上、下電阻分別為左側 2 Ω、6 Ω，右側 5 Ω、R。平衡時 R 為幾 Ω？",
+      "textbook": {
+        "topic": "3-7"
+      },
+      "explanation": "平衡條件為 2/6 = 5/R，因此 R = 15 Ω。此時兩側中點電位相同。",
+      "label": "練習 2",
+      "answer": [
+        "15"
+      ]
+    },
+    {
+      "id": "ee-3703",
+      "unit": "3-7",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "12 V 電源跨接平衡電橋。左臂上、下電阻為 3 Ω、6 Ω，右臂為 5 Ω、10 Ω。求兩中點對下端的電壓，並說明檢流計讀值。",
+      "textbook": {
+        "topic": "3-7"
+      },
+      "explanation": "左分壓為 12 × 6/(3 + 6) = 8 V，右分壓為 12 × 10/(5 + 10) = 8 V。中點無電位差，所以接於中間的檢流計無電流。",
+      "label": "練習 3",
+      "answer": "兩中點均為 8 V；檢流計為 0 A。"
+    },
+    {
+      "id": "ee-3801",
+      "unit": "3-8",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "每一邊都是 12 Ω 的 Δ 形網路，換成等效 Y 形後，各臂是多少？",
+      "textbook": {
+        "topic": "3-8"
+      },
+      "explanation": "每個 Y 臂為 12 × 12/(12 + 12 + 12) = 4 Ω。對稱的 Δ 轉成對稱 Y 時，各臂為原來的三分之一。",
+      "label": "練習 1",
+      "options": [
+        "3 Ω",
+        "4 Ω",
+        "12 Ω",
+        "36 Ω"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-3802",
+      "unit": "3-8",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "Δ 網路的 R_AB = 6 Ω、R_BC = 9 Ω、R_CA = 3 Ω。換成 Y 形後，求接在 A 端的電阻（Ω）。",
+      "textbook": {
+        "topic": "3-8"
+      },
+      "explanation": "A 端所接的兩個 Δ 臂是 AB 與 CA。R_A = (6 × 3)/(6 + 9 + 3) = 1 Ω。",
+      "label": "練習 2",
+      "answer": [
+        "1"
+      ]
+    },
+    {
+      "id": "ee-3803",
+      "unit": "3-8",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "Y 形網路由 A、B、C 到公共點依序為 2、3、6 Ω。求等效 Δ 的 AB、BC、CA 三邊。",
+      "textbook": {
+        "topic": "3-8"
+      },
+      "explanation": "三對 Y 臂乘積相加為 2×3 + 3×6 + 6×2 = 36 Ω²。每一 Δ 邊用 36 除以對面的 Y 臂，所以 R_AB=36/6=6 Ω，R_BC=36/2=18 Ω，R_CA=36/3=12 Ω。",
+      "label": "練習 3",
+      "answer": "6 Ω、18 Ω、12 Ω。"
+    },
+    {
+      "id": "ee-4104",
+      "unit": "4-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "如圖所示，求箭頭所標的電流 I。{{img:4-187-5.png}}",
+      "textbook": {
+        "topic": "4-1",
+        "exercisePage": 187
+      },
+      "explanation": "以接地與右端 0 V 為參考。令中央節點為 V，(V−50)/6 + V/4 − 5 = 0。乘 12 得 2V−100 + 3V−60 = 0，故 V = 32 V，I = (50−32)/6 = 3 A。",
+      "label": "自我評量第 6 題",
+      "options": [
+        "3 A",
+        "2 A",
+        "1 A",
+        "−2 A"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-4101",
+      "unit": "4-1",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "一個電路有 4 個獨立節點，其中一個為參考節點。不含理想電壓源的情況下，有幾個未知的節點電壓？",
+      "textbook": {
+        "topic": "4-1"
+      },
+      "explanation": "參考節點為 0 V，其餘 4 − 1 = 3 個節點電壓要用 KCL 方程式求得。",
+      "label": "練習 1",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-4102",
+      "unit": "4-1",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "某節點經 2 Ω 連到 12 V 節點，經 4 Ω 接地，另有 1 A 電流源自地注入該節點。求節點電壓（V）。",
+      "textbook": {
+        "topic": "4-1"
+      },
+      "explanation": "令節點電壓為 V，寫流出電流的代數和：(V − 12)/2 + V/4 − 1 = 0。乘以 4 得 3V = 28，所以 V = 28/3 V，約 9.33 V。",
+      "label": "練習 2",
+      "answer": [
+        "9.333333333333"
+      ]
+    },
+    {
+      "id": "ee-4103",
+      "unit": "4-1",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "某節點透過 3 Ω 接 9 V 電源正端，透過 6 Ω 接另一個 6 V 電源正端，並透過 2 Ω 接地。兩電源負端皆接地，求該節點電位。",
+      "textbook": {
+        "topic": "4-1"
+      },
+      "explanation": "列 KCL：(V − 9)/3 + (V − 6)/6 + V/2 = 0。乘以 6，得到 2V − 18 + V − 6 + 3V = 0，故 V = 4 V。",
+      "label": "練習 3",
+      "answer": "4 V。"
+    },
+    {
+      "id": "ee-4201",
+      "unit": "4-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "使用迴路電流法列出各網目中電阻的電壓降時，主要使用哪兩個電路定律？",
+      "textbook": {
+        "topic": "4-2",
+        "exercisePage": 187
+      },
+      "explanation": "沿網目使用克希荷夫電壓定律，並利用 V = IR 將各電阻電壓寫成網目電流的式子。",
+      "label": "自我評量第 7 題",
+      "options": [
+        "KVL、KCL",
+        "KVL、歐姆定律",
+        "戴維寧定理、歐姆定律",
+        "焦耳定律、歐姆定律"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-4204",
+      "unit": "4-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "如圖所示，依序求順時針網目電流 I₁、I₂。{{img:4-187-6.png}}",
+      "textbook": {
+        "topic": "4-2",
+        "exercisePage": 187
+      },
+      "explanation": "左網目：30−3I₁−6(I₁−I₂)−60=0。右網目：60−3I₂−6(I₂−I₁)=0。整理為 9I₁−6I₂=−30、−6I₁+9I₂=60，解得 I₁=2 A、I₂=8 A。",
+      "label": "自我評量第 8 題",
+      "options": [
+        "10 A、10 A",
+        "8 A、2 A",
+        "6 A、7 A",
+        "2 A、8 A"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-4202",
+      "unit": "4-2",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "左右相鄰網目均取順時針，電流分別為 5 A、2 A。求兩網目共用支路中，沿左網目方向的電流（A）。",
+      "textbook": {
+        "topic": "4-2"
+      },
+      "explanation": "兩個順時針網目在共用支路的方向相反，因此左網目正向的電流為 5 − 2 = 3 A。",
+      "label": "練習 2",
+      "answer": [
+        "3"
+      ]
+    },
+    {
+      "id": "ee-4203",
+      "unit": "4-2",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "相鄰兩個網目共有一個 2 Ω 電阻。左網目另有 4 Ω 電阻與順時針提供電壓升的 10 V 電源；右網目另有 4 Ω 電阻，沒有電源。兩網目電流皆以順時針為正，求兩個網目電流。",
+      "textbook": {
+        "topic": "4-2"
+      },
+      "explanation": "左網目：4I₁ + 2(I₁ − I₂) = 10。右網目：4I₂ + 2(I₂ − I₁) = 0。第二式得 I₁ = 3I₂，代入第一式得 16I₂ = 10，因此 I₂ = 0.625 A、I₁ = 1.875 A。",
+      "label": "練習 3",
+      "answer": "左 1.875 A；右 0.625 A。"
+    },
+    {
+      "id": "ee-4301",
+      "unit": "4-3",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "以重疊定理求某個獨立源造成的支路電流時，應如何處理其他獨立源？",
+      "textbook": {
+        "topic": "4-3"
+      },
+      "explanation": "理想電壓源歸零時兩端電位差為零，相當於短路。理想電流源歸零時該支路沒有電流，相當於開路。",
+      "label": "練習 1",
+      "options": [
+        "電壓源短路、電流源開路",
+        "電壓源開路、電流源短路",
+        "所有電源短路",
+        "所有電源開路"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-4302",
+      "unit": "4-3",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "一個 4 Ω 電阻中，兩個獨立電源分別單獨造成沿參考方向的 3 A 與 −1 A。兩電源同時作用時，求電阻功率（W）。",
+      "textbook": {
+        "topic": "4-3"
+      },
+      "explanation": "先將電流代數相加，I = 3 − 1 = 2 A。再求功率 I²R = 2² × 4 = 16 W，不能直接把各單獨功率相加。",
+      "label": "練習 2",
+      "answer": [
+        "16"
+      ]
+    },
+    {
+      "id": "ee-4303",
+      "unit": "4-3",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "某電路節點經 2 Ω 分別連到 12 V、6 V 兩個理想電源正端，且經 2 Ω 接地。用重疊定理求節點電位。",
+      "textbook": {
+        "topic": "4-3"
+      },
+      "explanation": "只保留 12 V 時，另兩支 2 Ω 對地並聯成 1 Ω，分壓得 12 × 1/(2+1) = 4 V。只保留 6 V 時，同理得 2 V。貢獻同極性，所以總電位為 6 V。",
+      "label": "練習 3",
+      "answer": "6 V。"
+    },
+    {
+      "id": "ee-4401",
+      "unit": "4-4",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "戴維寧等效電壓等於哪一個量？",
+      "textbook": {
+        "topic": "4-4"
+      },
+      "explanation": "移除負載後端點開路，流經等效串聯電阻的電流為零。因此端點的開路電壓恰等於 V_th。",
+      "label": "練習 1",
+      "options": [
+        "負載短路電流",
+        "負載接上後的壓降",
+        "移除負載後的端點電壓",
+        "電源內阻"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-4402",
+      "unit": "4-4",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "12 V 電源經 2 Ω、4 Ω 串聯分壓，輸出取 4 Ω 兩端。移除外部負載後，輸出端的戴維寧電壓為幾 V？",
+      "textbook": {
+        "topic": "4-4"
+      },
+      "explanation": "由分壓得 V_th = 12 × 4/(2+4) = 8 V。原電路中的 4 Ω 仍在，只移除外接負載。",
+      "label": "練習 2",
+      "answer": [
+        "8"
+      ]
+    },
+    {
+      "id": "ee-4403",
+      "unit": "4-4",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "18 V 電源經 3 Ω、6 Ω 串聯分壓，輸出端取 6 Ω 兩端。求戴維寧等效電壓及電阻，再求接上 4 Ω 負載時的電流。",
+      "textbook": {
+        "topic": "4-4"
+      },
+      "explanation": "開路分壓為 18 × 6/9 = 12 V。將獨立電壓源短路，從輸出看入是 3 Ω 並聯 6 Ω，得 2 Ω。接上負載後 I = 12/(2+4) = 2 A。",
+      "label": "練習 3",
+      "answer": "V_th = 12 V；R_th = 2 Ω；負載電流 2 A。"
+    },
+    {
+      "id": "ee-4501",
+      "unit": "4-5",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "諾頓等效電源的電流是原網路端點的哪一個量？",
+      "textbook": {
+        "topic": "4-5"
+      },
+      "explanation": "端點短路時等效電阻上的電壓為零，所以諾頓源的全部電流會流過端點短路支路。",
+      "label": "練習 1",
+      "options": [
+        "開路電流",
+        "短路電流",
+        "最大功率時的電流",
+        "任一支路的電流"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-4502",
+      "unit": "4-5",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "某網路開路電壓為 18 V，端點短路電流為 3 A。求其諾頓等效電阻（Ω）。",
+      "textbook": {
+        "topic": "4-5"
+      },
+      "explanation": "同一個線性網路的 R_N = R_th = V_oc/I_sc = 18/3 = 6 Ω。",
+      "label": "練習 2",
+      "answer": [
+        "6"
+      ]
+    },
+    {
+      "id": "ee-4503",
+      "unit": "4-5",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "5 A 諾頓電流源並聯 6 Ω，外接 4 Ω 負載。求負載電流及負載電壓。",
+      "textbook": {
+        "topic": "4-5"
+      },
+      "explanation": "用分流公式，負載電流為 5 × 6/(6+4) = 3 A。負載電壓為 3 × 4 = 12 V。",
+      "label": "練習 3",
+      "answer": "3 A；12 V。"
+    },
+    {
+      "id": "ee-4601",
+      "unit": "4-6",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "戴維寧等效為 20 V 串聯 4 Ω，對應的諾頓等效為何？",
+      "textbook": {
+        "topic": "4-6"
+      },
+      "explanation": "短路電流 20/4 = 5 A，原串聯電阻 4 Ω 改與電流源並聯。",
+      "label": "練習 1",
+      "options": [
+        "5 A 並聯 4 Ω",
+        "5 A 串聯 4 Ω",
+        "20 A 並聯 4 Ω",
+        "80 A 串聯 4 Ω"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-4602",
+      "unit": "4-6",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "已知諾頓電流為 2.5 A，並聯電阻 8 Ω。求戴維寧電壓（V）。",
+      "textbook": {
+        "topic": "4-6"
+      },
+      "explanation": "V_th = I_N R_N = 2.5 × 8 = 20 V，戴維寧模型中的 8 Ω 串接。",
+      "label": "練習 2",
+      "answer": [
+        "20"
+      ]
+    },
+    {
+      "id": "ee-4603",
+      "unit": "4-6",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "某端點的戴維寧等效是 9 V 串聯 3 Ω。寫出諾頓等效，並用兩種表示法求 6 Ω 負載電流。",
+      "textbook": {
+        "topic": "4-6"
+      },
+      "explanation": "戴維寧電流為 9/(3+6) = 1 A。諾頓電流為 9/3 = 3 A，負載分到 3 × 3/(3+6) = 1 A。",
+      "label": "練習 3",
+      "answer": "3 A 並聯 3 Ω；兩種都得到 1 A。"
+    },
+    {
+      "id": "ee-4701",
+      "unit": "4-7",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "電壓源以理想電動勢串聯內阻表示。如果負載等於內阻，負載獲得最大功率時的效率是多少？",
+      "textbook": {
+        "topic": "4-7",
+        "exercisePage": 191
+      },
+      "explanation": "因為兩個相等的電阻串聯並通過同一電流，內阻損耗 I²R_th 等於負載功率 I²R_L，因此一半的功率到達負載。",
+      "label": "自我評量第 26 題",
+      "options": [
+        "0%",
+        "100%",
+        "由內阻決定",
+        "50%"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-4702",
+      "unit": "4-7",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "某電壓源的電動勢為 120 V，內阻為 6 Ω，最大可傳輸給電阻性負載的功率為多少？",
+      "textbook": {
+        "topic": "4-7",
+        "exercisePage": 191
+      },
+      "explanation": "負載選 6 Ω 時電流為 120/(6+6) = 10 A，負載功率 = 10² × 6 = 600 W。",
+      "label": "自我評量第 27 題",
+      "options": [
+        "1200 W",
+        "720 W",
+        "600 W",
+        "300 W"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-4704",
+      "unit": "4-7",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "如圖所示，負載 R_L 取多少可得到最大功率？{{img:4-191-15.png}}",
+      "textbook": {
+        "topic": "4-7",
+        "exercisePage": 191
+      },
+      "explanation": "移除負載並把 18 V 電源短路。由負載端看入，8 Ω 串聯 6 Ω 與 3 Ω 的並聯值 2 Ω，所以 R_th = 10 Ω。匹配時 R_L = 10 Ω。",
+      "label": "自我評量第 25 題",
+      "options": [
+        "17 Ω",
+        "11 Ω",
+        "10 Ω",
+        "9 Ω"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-4705",
+      "unit": "4-7",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "如圖所示，求可變電阻 R_L 能獲得的最大功率。{{img:4-191-16.png}}",
+      "textbook": {
+        "topic": "4-7",
+        "exercisePage": 191
+      },
+      "explanation": "移除負載後，兩端相對下節點的分壓為 90 V 與 60 V，因此 V_th = 30 V。將電壓源短路後，R_th = (2∥6) + (3∥3) = 3 Ω。P_max = 30²/(4×3) = 75 W。",
+      "label": "自我評量第 28 題",
+      "options": [
+        "250 W",
+        "125 W",
+        "75 W",
+        "50 W"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-4703",
+      "unit": "4-7",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "某線性網路的戴維寧等效是 24 V 串聯 6 Ω。求最大負載功率（W）。",
+      "textbook": {
+        "topic": "4-7"
+      },
+      "explanation": "負載設為 6 Ω，電流是 24/(6+6) = 2 A，故最大負載功率為 2² × 6 = 24 W。",
+      "label": "練習 3",
+      "answer": [
+        "24"
+      ]
+    },
+    {
+      "id": "ee-5101",
+      "unit": "5-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "電容器接上電池充電時，連接到電池正端的極板累積何種淨電荷？",
+      "textbook": {
+        "topic": "5-1",
+        "exercisePage": 236
+      },
+      "explanation": "正端將電子從該極板抽走。失去電子的極板帶正電，另一極板得到電子而帶負電。",
+      "label": "自我評量第 2 題",
+      "options": [
+        "正電荷",
+        "負電荷",
+        "零淨電荷",
+        "無法判斷"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-5102",
+      "unit": "5-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "一般電容器兩極板之間的介質應具有何種電性？",
+      "textbook": {
+        "topic": "5-1",
+        "exercisePage": 236
+      },
+      "explanation": "介質應隔開兩個導體，避免極板間直接導通。絕緣介質仍可極化，並影響電容量。",
+      "label": "自我評量第 3 題",
+      "options": [
+        "良好導體",
+        "超導體",
+        "絕緣體",
+        "以上皆可"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-5103",
+      "unit": "5-1",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "說明電容充電時兩極板為何能帶上相反電荷，且中間介質仍能保持絕緣。",
+      "textbook": {
+        "topic": "5-1"
+      },
+      "explanation": "電池透過外電路從一個極板移走電子，將電子推到另一板，形成等量異號淨電荷；電子不需穿越介質。極板間形成電場，介質可發生極化。",
+      "label": "練習 3",
+      "answer": "外電路移動電子，電介質隔開兩極板。"
+    },
+    {
+      "id": "ee-5201",
+      "unit": "5-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "100 μF 的電容器充電至 200 V，所儲存的電荷量是多少？",
+      "textbook": {
+        "topic": "5-2",
+        "exercisePage": 236
+      },
+      "explanation": "Q = CV = (100 × 10⁻⁶ F) × 200 V = 0.02 C。",
+      "label": "自我評量第 7 題",
+      "options": [
+        "20 C",
+        "2 C",
+        "0.2 C",
+        "0.02 C"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-5202",
+      "unit": "5-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "將 12 μF、12 μF、3 μF 三個電容串聯，等效電容為多少？",
+      "textbook": {
+        "topic": "5-2",
+        "exercisePage": 237
+      },
+      "explanation": "串聯電荷量相同、總電壓相加，因此 1/C_eq = 1/12 + 1/12 + 1/3 = 1/2，以 μF 為單位的等效值為 2。",
+      "label": "自我評量第 12 題",
+      "options": [
+        "16 μF",
+        "12 μF",
+        "3 μF",
+        "2 μF"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-5203",
+      "unit": "5-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "100 μF 的電容器兩端為 100 V，儲存的能量是多少？",
+      "textbook": {
+        "topic": "5-2",
+        "exercisePage": 237
+      },
+      "explanation": "以 W = ½CV² 計算，W = 0.5 × 100 × 10⁻⁶ × 100² = 0.5 J。",
+      "label": "自我評量第 15 題",
+      "options": [
+        "2.25 J",
+        "1.125 J",
+        "1 J",
+        "0.5 J"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-5204",
+      "unit": "5-2",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "5 μF 電容原本未充電，以 20 μA 定電流充電 10 s。求電容電壓（V）。",
+      "textbook": {
+        "topic": "5-2"
+      },
+      "explanation": "收到的電荷 Q = It = 20 μA × 10 s = 200 μC，V = Q/C = 200 μC ÷ 5 μF = 40 V。",
+      "label": "練習 4",
+      "answer": [
+        "40"
+      ]
+    },
+    {
+      "id": "ee-5205",
+      "unit": "5-2",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "兩個電容 3 μF 與 6 μF 串聯，接到 12 V。求等效電容、兩者各自的電壓。",
+      "textbook": {
+        "topic": "5-2"
+      },
+      "explanation": "串聯得到 C_eq = (3 × 6)/(3+6) = 2 μF，兩電容各自電荷量的大小為 2 × 12 = 24 μC。V₁ = 24/3 = 8 V，V₂ = 24/6 = 4 V，兩者相加為 12 V。",
+      "label": "練習 5",
+      "answer": "2 μF；8 V、4 V。"
+    },
+    {
+      "id": "ee-5301",
+      "unit": "5-3",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "均勻電場指向右方，若比較同一條水平電力線上兩點的電位，何者正確？",
+      "textbook": {
+        "topic": "5-3"
+      },
+      "explanation": "正電荷若向右移動，電場做正功、電位能下降，因此電場方向由高電位指向低電位。",
+      "label": "練習 1",
+      "options": [
+        "右點較高",
+        "左點較高",
+        "兩點一樣",
+        "由試驗電荷的符號決定"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-5302",
+      "unit": "5-3",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "兩平行板之間相距 2 mm，電位差為 30 V。忽略邊緣效應，求均勻電場大小（V/m）。",
+      "textbook": {
+        "topic": "5-3"
+      },
+      "explanation": "d = 2 × 10⁻³ m。E = |ΔV|/d = 30/(2 × 10⁻³) = 15000 V/m。",
+      "label": "練習 2",
+      "answer": [
+        "15000"
+      ]
+    },
+    {
+      "id": "ee-5303",
+      "unit": "5-3",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "真空中兩個點電荷 +2 μC 與 −3 μC 相距 0.30 m。取 k = 9 × 10⁹ N·m²/C²，求互作用力的大小並判斷吸引或排斥。",
+      "textbook": {
+        "topic": "5-3"
+      },
+      "explanation": "F = k|q₁q₂|/r² = 9 × 10⁹ × 6 × 10⁻¹²/0.30² = 0.6 N。兩電荷異號，所以互相吸引。",
+      "label": "練習 3",
+      "answer": "0.6 N，相吸。"
+    },
+    {
+      "id": "ee-6101",
+      "unit": "6-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "磁通量的 SI 單位是什麼？",
+      "textbook": {
+        "topic": "6-1",
+        "exercisePage": 296
+      },
+      "explanation": "磁通量以韋伯表示。特斯拉是磁通密度單位，1 T = 1 Wb/m²。",
+      "label": "自我評量第 2 題",
+      "options": [
+        "韋伯",
+        "安培",
+        "特斯拉",
+        "亨利"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-6102",
+      "unit": "6-1",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "1 Wb/m² 相當於下列哪一個單位？",
+      "textbook": {
+        "topic": "6-1",
+        "exercisePage": 296
+      },
+      "explanation": "B 代表每單位垂直面積的磁通量，因此其單位 T 等於 Wb/m²。",
+      "label": "自我評量第 5 題",
+      "options": [
+        "1 T",
+        "1 A",
+        "1 V",
+        "1 W"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-6103",
+      "unit": "6-1",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "0.6 T 的均勻磁場垂直通過面積 0.02 m²。磁通量為幾 Wb？",
+      "textbook": {
+        "topic": "6-1"
+      },
+      "explanation": "磁場沿面的法線方向，Φ = BA = 0.6 × 0.02 = 0.012 Wb。",
+      "label": "練習 3",
+      "answer": [
+        "0.012"
+      ]
+    },
+    {
+      "id": "ee-6104",
+      "unit": "6-1",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "均勻磁場和矩形線圈的法線夾角為 60°。若 B = 0.5 T、面積為 0.04 m²，求穿過線圈的磁通量。",
+      "textbook": {
+        "topic": "6-1"
+      },
+      "explanation": "磁通須用垂直線圈平面的分量，即 Φ = BA cos θ。代入得到 0.5 × 0.04 × cos 60° = 0.010 Wb。",
+      "label": "練習 4",
+      "answer": "0.010 Wb。"
+    },
+    {
+      "id": "ee-6201",
+      "unit": "6-2",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "電感量的 SI 單位為何？",
+      "textbook": {
+        "topic": "6-2",
+        "exercisePage": 297
+      },
+      "explanation": "由 v = L di/dt 可得電感量的單位是 V·s/A，稱為亨利（H）。",
+      "label": "自我評量第 10 題",
+      "options": [
+        "韋伯",
+        "伏特",
+        "亨利",
+        "法拉"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-6202",
+      "unit": "6-2",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "理想電感器通過固定不變的 2 A 電流時，其兩端電壓為何？",
+      "textbook": {
+        "topic": "6-2"
+      },
+      "explanation": "電流不隨時間改變，所以 di/dt = 0，電感兩端 v = L di/dt = 0。",
+      "label": "練習 2",
+      "options": [
+        "0 V",
+        "2 V",
+        "與電感的數值相同",
+        "隨時間線性增加"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-6203",
+      "unit": "6-2",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "說明理想電感器為何在有限的端電壓下，電流不能在瞬間由 0 升為 1 A。",
+      "textbook": {
+        "topic": "6-2"
+      },
+      "explanation": "由 v = L di/dt，當 L 為非零的有限值且 v 有限，di/dt 就有限。要在零時間內改變 1 A 需無限大的變化率，因此在有限電壓下不會發生。",
+      "label": "練習 3",
+      "answer": "瞬時跳變需要無限大的電流變化率。"
+    },
+    {
+      "id": "ee-6301",
+      "unit": "6-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "1 H 與 0.25 H 的電感器串聯，忽略互感時，等效電感量是多少？",
+      "textbook": {
+        "topic": "6-3",
+        "exercisePage": 297
+      },
+      "explanation": "未磁耦合電感串聯時通過同一電流，電壓相加，因此 L_eq = 1 + 0.25 = 1.25 H。",
+      "label": "自我評量第 12 題",
+      "options": [
+        "1.25 H",
+        "0.25 H",
+        "0.2 H",
+        "0 H"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-6302",
+      "unit": "6-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "一個 3 H 電感器通過 2 A，所儲存的能量為多少？",
+      "textbook": {
+        "topic": "6-3",
+        "exercisePage": 298
+      },
+      "explanation": "磁場儲能 W = ½LI² = ½ × 3 × 2² = 6 J。",
+      "label": "自我評量第 20 題",
+      "options": [
+        "12 J",
+        "9 J",
+        "6 J",
+        "3 J"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-6304",
+      "unit": "6-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "如圖所示，求兩線圈間的耦合係數 k。{{img:6-298-3.png}}",
+      "textbook": {
+        "topic": "6-3",
+        "exercisePage": 298
+      },
+      "explanation": "互感 M = k√(L₁L₂)，因此 k = 8/√(20×5) = 8/10 = 0.8。",
+      "label": "自我評量第 16 題",
+      "options": [
+        "0.9",
+        "0.8",
+        "0.5",
+        "0.4"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-6305",
+      "unit": "6-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "如圖所示，求串聯耦合電感的總儲能。{{img:6-298-4.png}}",
+      "textbook": {
+        "topic": "6-3",
+        "exercisePage": 298
+      },
+      "explanation": "電流在兩線圈均流入有點端，互感為助磁。L_eq = 20 + 5 + 2×8 = 41 H，儲能 ½L_eqI² = ½×41×5² = 512.5 J。",
+      "label": "自我評量第 17 題",
+      "options": [
+        "512.5 J",
+        "300 J",
+        "250 J",
+        "62.5 J"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "ee-6306",
+      "unit": "6-3",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "如圖所示，假設各電感之間沒有磁耦合，求 a、b 間的等效電感。{{img:6-298-5.png}}",
+      "textbook": {
+        "topic": "6-3",
+        "exercisePage": 298
+      },
+      "explanation": "右邊兩個 1 H 串聯為 2 H，與中間的 2 H 並聯，所以等效電感是 2×2/(2+2) = 1 H。",
+      "label": "自我評量第 18 題",
+      "options": [
+        "4 H",
+        "2.5 H",
+        "2 H",
+        "1 H"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "ee-6303",
+      "unit": "6-3",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "2 H 與 6 H 的電感器並聯，忽略互感。求等效電感量（H）。",
+      "textbook": {
+        "topic": "6-3"
+      },
+      "explanation": "1/L_eq = 1/2 + 1/6 = 2/3，所以 L_eq = 1.5 H。",
+      "label": "練習 3",
+      "answer": [
+        "1.5"
+      ]
+    },
+    {
+      "id": "ee-6401",
+      "unit": "6-4",
+      "type": "c",
+      "source": "supplement",
+      "prompt": "將右手拇指指向直導線中的傳統電流方向，彎曲的四指表示什麼？",
+      "textbook": {
+        "topic": "6-4"
+      },
+      "explanation": "直導線周圍磁力線為同心圓。右手拇指指向電流，四指彎曲的方向即磁場方向。",
+      "label": "練習 1",
+      "options": [
+        "電子漂移方向",
+        "磁場環繞方向",
+        "電場方向",
+        "導線受力方向"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "ee-6402",
+      "unit": "6-4",
+      "type": "f",
+      "source": "supplement",
+      "prompt": "一段長 0.2 m 的直導線通過 4 A，與 0.5 T 均勻磁場垂直。導線受力為幾 N？",
+      "textbook": {
+        "topic": "6-4"
+      },
+      "explanation": "F = BIℓ sin θ，θ = 90° 時 sin θ = 1，所以 F = 0.5 × 4 × 0.2 = 0.4 N。",
+      "label": "練習 2",
+      "answer": [
+        "0.4"
+      ]
+    },
+    {
+      "id": "ee-6403",
+      "unit": "6-4",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "比較同一根通電直導線分別平行和垂直於均勻磁場時的受力大小，寫出理由。",
+      "textbook": {
+        "topic": "6-4"
+      },
+      "explanation": "磁力大小 F = BIℓ sin θ。θ 為電流方向和磁場的夾角。平行時 sin 0° = 0，垂直時 sin 90° = 1。",
+      "label": "練習 3",
+      "answer": "平行為零，垂直為最大值 BIℓ。"
+    },
+    {
+      "id": "ee-6501",
+      "unit": "6-5",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "描述線圈中的感應電動勢大小如何隨磁通變化率改變的是哪一個定律？",
+      "textbook": {
+        "topic": "6-5",
+        "exercisePage": 299
+      },
+      "explanation": "法拉第定律的大小式為 |e| = N|ΔΦ/Δt|。冷次定律則說明感應效應會反抗造成它的磁通變化。",
+      "label": "自我評量第 24 題",
+      "options": [
+        "冷次定律",
+        "歐姆定律",
+        "法拉第電磁感應定律",
+        "高斯定律"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-6502",
+      "unit": "6-5",
+      "type": "c",
+      "source": "exercise",
+      "prompt": "一個 100 匝線圈中，每匝磁通在 1 s 內從 1 Wb 均勻增至 4 Wb。感應電動勢大小為多少？",
+      "textbook": {
+        "topic": "6-5",
+        "exercisePage": 299
+      },
+      "explanation": "每匝磁通變化 4 − 1 = 3 Wb。N|ΔΦ/Δt| = 100 × 3/1 = 300 V。",
+      "label": "自我評量第 25 題",
+      "options": [
+        "900 V",
+        "600 V",
+        "300 V",
+        "150 V"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "ee-6503",
+      "unit": "6-5",
+      "type": "f",
+      "source": "exercise",
+      "prompt": "100 mH 的電感中，電流在 10 μs 內均勻增加 100 μA。求兩端電壓大小（V）。",
+      "textbook": {
+        "topic": "6-5",
+        "exercisePage": 299
+      },
+      "explanation": "100 mH = 0.1 H。電流變化率為 100 μA/10 μs = 10 A/s，因此電感兩端電壓大小為 0.1 × 10 = 1 V。",
+      "label": "自我評量第 26 題",
+      "answer": [
+        "1"
+      ]
+    },
+    {
+      "id": "ee-6504",
+      "unit": "6-5",
+      "type": "w",
+      "source": "supplement",
+      "prompt": "將條形磁鐵的 N 極沿軸線朝一閉合線圈靠近。從磁鐵一側看，感應電流為順時針或逆時針？說明原因。",
+      "textbook": {
+        "topic": "6-5"
+      },
+      "explanation": "N 極接近使穿入線圈的磁通增加。依冷次定律，線圈靠磁鐵一側會形成 N 極以反抗磁通增加。依右手定則，由此側看電流為逆時針。",
+      "label": "練習 4",
+      "answer": "逆時針。"
+    }
+  ]
+}
