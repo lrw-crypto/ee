@@ -19,7 +19,7 @@ const state = {
   bank: [], chapters: [], selected: new Set(), wrongSelected: new Set(),
   textbookTopics: {},
   chapter: '1', source: '', type: '', order: 'original', count: 'all', wrongChapter: '',
-  account: syncOrigin ? read('account', null, sessionStorage) : null, loginMode: 'login',
+  account: syncOrigin ? read('account', null, sessionStorage) : null,
   records: {}, run: null, status: '', sync: null
 };
 const recordsKey = name => 'records:' + name;
@@ -33,7 +33,7 @@ const wrong = () => state.bank.filter(q => (state.records[q.id]?.wrong || 0) > 0
 const recordCount = () => Object.values(state.records).reduce((totals, item) =>
   ({ right: totals.right + item.correct, wrong: totals.wrong + item.wrong }), { right: 0, wrong: 0 });
 const humanError = error => ({
-  bad_login: '帳號或密碼有誤。', name_taken: '這個代稱已被使用，請換一個代稱。',
+  bad_login: '帳號或密碼有誤。',
   invalid_credentials: '代稱需為 3–24 個字元，可使用中英文、數字、點號、底線及連字號。密碼至少 8 個字元。',
   rate_limit: '短時間內嘗試次數較多，請稍後再試。',
   unauthorized: '登入已過期，請再登入一次。'
@@ -140,7 +140,7 @@ function updateNav() {
   const links = [
     ['units', '單元練習', page === 'units' || page === 'practice' || page === 'result'],
     ['wrong', `錯題本 ${wrong().length}`, page === 'wrong'],
-    ['account', syncOrigin ? state.account?.name || '登入／註冊' : '練習紀錄', page === 'account']
+    ['account', syncOrigin ? state.account?.name || '登入' : '練習紀錄', page === 'account']
   ];
   nav.innerHTML = links.map(([id, label, active]) =>
     `<a class="nav ${active ? 'active' : ''} ${id === 'account' ? 'account' : ''}" href="#${id}" ${active ? 'aria-current="page"' : ''}>${escaped(label)}</a>`).join('');
@@ -530,20 +530,17 @@ function accountView(focus) {
     </section>`, focus);
     return;
   }
-  const mode = state.loginMode;
-  const register = mode === 'register';
   draw(`<section class="page account-page panel">
     ${heading(state.account ? '我的紀錄' : '學生帳號')}
     ${state.account ? `<p class="note">已登入 ${escaped(state.account.name)} · <span id="sync-status">${escaped(state.status)}</span></p>
     <div class="totals"><div class="total"><strong>${totals.right}</strong>答對</div><div class="total"><strong>${totals.wrong}</strong>答錯</div><div class="total"><strong>${wrong().length}</strong>錯題</div></div>
     <div class="actions"><button class="btn" data-action="sync">重新同步</button>${state.status === '請重新登入以同步' ? '<button class="btn" data-action="relogin">重新登入</button>' : ''}<button class="btn" data-action="logout">登出</button></div>`
-    : `<p class="note">用相同代稱和密碼登入，即可在手機、平板和電腦查看自己的錯題。</p>
-    <div class="segment" aria-label="帳號功能"><button class="${radioStyle(!register)}" aria-pressed="${!register}" data-action="login-mode">登入</button><button class="${radioStyle(register)}" aria-pressed="${register}" data-action="register-mode">註冊</button></div>
+    : `<p class="note">第一次輸入新代稱並登入時，會以這組帳密建立帳號。往後請用同一組帳密登入，就能在不同裝置查看作答紀錄和錯題。</p>
     <form id="account-form">
       <label class="field">帳號代稱<input name="name" required minlength="3" maxlength="24" autocomplete="username" autocapitalize="none" spellcheck="false"></label>
-      <label class="field">密碼<input name="password" required type="password" minlength="8" maxlength="128" autocomplete="${register ? 'new-password' : 'current-password'}"></label>
-      ${register ? '<p class="note">請使用代稱和至少 8 個字元的密碼。請妥善保管密碼，本服務以代稱註冊，沒有電子郵件重設功能。</p>' : ''}
-      <div class="actions"><button class="btn primary" type="submit">${register ? '建立帳號' : '登入'}</button><a class="btn" href="#units">先練習</a></div>
+      <label class="field">密碼<input name="password" required type="password" minlength="8" maxlength="128" autocomplete="current-password"></label>
+      <p class="note">代稱須為 3–24 個字元，密碼至少 8 個字元。請記住這組帳密，日後登入時請核對代稱拼法。</p>
+      <div class="actions"><button class="btn primary" type="submit">登入</button><a class="btn" href="#units">先練習</a></div>
       <p class="error" id="login-error" role="alert" hidden></p>
     </form>`}
   </section>`, focus);
@@ -555,7 +552,7 @@ async function submitAccount(form) {
   button.disabled = true;
   box.hidden = true;
   try {
-    const account = await api('/' + state.loginMode, { body: { name: data.get('name'), password: data.get('password') } });
+    const account = await api('/login', { body: { name: data.get('name'), password: data.get('password'), createIfMissing: true } });
     state.account = account;
     store('account', account, sessionStorage);
     state.wrongSelected.clear();
@@ -813,8 +810,6 @@ app.addEventListener('click', event => {
     case 'sync': void sync(); break;
     case 'logout': button.disabled = true; void logout(); break;
     case 'relogin': void logout(false); break;
-    case 'login-mode':
-    case 'register-mode': state.loginMode = action.split('-')[0]; accountView(false); break;
   }
 });
 window.addEventListener('hashchange', () => render(true));

@@ -78,9 +78,6 @@ input[type=checkbox], input[type=radio] { accent-color: var(--accent); width: 1.
 .account-page { width: min(100%, 500px); }
 .account-page form { display: grid; gap: 15px; margin-top: 16px; }
 .account-page .actions { margin-top: 0; }
-.segment { display: flex; gap: 6px; width: fit-content; padding: 4px; background: #eaeef3; border: 1px solid var(--line); border-radius: 10px; }
-.segment button { border: 0; border-radius: 7px; background: none; padding: 5px 14px; font-weight: 700; color: var(--muted); }
-.segment button.active { background: white; color: var(--accent); box-shadow: 0 1px 4px #0e1d3220; }
 .progress-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 8px; }
 progress { appearance: none; width: 100%; height: 8px; display: block; border: 0; border-radius: 10px; overflow: hidden; background: #dae1ea; margin-bottom: 20px; }
 progress::-webkit-progress-bar { background: #dae1ea; }
